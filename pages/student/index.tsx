@@ -1,8 +1,8 @@
-import DefaultLayout from "../components/layout/DefaultLayout";
-import Header from "../components/layout/Header";
-import type { NextPageWithLayout } from "./_app";
+import DefaultLayout from "../../components/layout/DefaultLayout";
+import Header from "../../components/layout/Header";
+import type { NextPageWithLayout } from ".././_app";
 import type { ReactElement } from "react";
-import TextInputFields from "../components/shared/input/TextInput";
+import TextInputFields from "../../components/shared/input/TextInput";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -67,9 +67,9 @@ const About: NextPageWithLayout = () => {
     return (
       <DefaultLayout>
        <>
-       
+      
        <Header
-       title="LOGIN "
+       title="Welcome"
        desc=" please provide necessary details for sign in"/>
        {page}
       
