@@ -7,7 +7,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 
-const About: NextPageWithLayout = () => {
+const Login: NextPageWithLayout = () => {
     return (
         <form
 
@@ -63,7 +63,7 @@ const About: NextPageWithLayout = () => {
     )
   }
   
-  About.getLayout = function getLayout(page: ReactElement) {
+  Login.getLayout = function getLayout(page: ReactElement) {
     return (
       <DefaultLayout>
        <>
@@ -78,4 +78,4 @@ const About: NextPageWithLayout = () => {
     )
   }
 
-export default About;
+export default Login;
